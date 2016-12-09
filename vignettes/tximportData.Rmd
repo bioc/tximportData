@@ -105,6 +105,14 @@ kallisto version 0.42.4 was run with the call:
 kallisto quant --bias -i kallisto_0.42.4/index -o kallisto_0.42.4/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
 ```
 
+For the HDF5 files in `kallisto_h5` directory, kallisto version 0.43.0
+was run, quantifying against the Ensembl transcripts in
+`Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
+
+```
+kallisto quant -i kallisto_0.43.0/index -o kallisto_0.43.0/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
+```
+
 # Salmon
 
 Salmon version 0.6.0 was run with the call:
