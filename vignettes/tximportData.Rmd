@@ -105,12 +105,12 @@ kallisto version 0.42.4 was run with the call:
 kallisto quant --bias -i kallisto_0.42.4/index -o kallisto_0.42.4/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
 ```
 
-For the HDF5 files in `kallisto_h5` directory, kallisto version 0.43.0
-was run, quantifying against the Ensembl transcripts in
+For the files in `kallisto_boot` directory, kallisto version 0.43.0
+was run, quantifying against the Ensembl transcripts (v87) in
 `Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
 
 ```
-kallisto quant -i kallisto_0.43.0/index -o kallisto_0.43.0/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
+kallisto quant -i kallisto_0.43.0/index -t 6 -b 5 -o kallisto_0.43.0/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
 ```
 
 # Salmon
@@ -119,6 +119,14 @@ Salmon version 0.6.0 was run with the call:
 
 ```
 $salmon quant -p 10 --biasCorrect -i salmon_0.6.0/index -l IU -1 <(zcat fastq/$f\_1.fastq.gz) -2 <(zcat fastq/$f\_2.fastq.gz) -o salmon_0.6.0/$f
+```
+
+For the files in the `salmon_gibbs` directory, Salmon version 0.8.1
+was run, quantifying against teh Ensembl transcripts (v87) in 
+`Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
+
+```
+$salmon quant -p 6 --numGibbsSamples 5 -i salmon_0.6.0/index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon_0.6.0/$f
 ```
 
 # Sailfish
