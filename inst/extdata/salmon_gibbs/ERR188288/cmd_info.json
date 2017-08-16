@@ -1,0 +1,11 @@
+{
+    "salmon_version": "0.8.1",
+    "threads": "6",
+    "numGibbsSamples": "5",
+    "index": "Homo_sapiens.GRCh38.cdna.all.fa_Salmon-0.8.1_index",
+    "libType": "IU",
+    "mates1": "ERR188288_1.fastq.gz",
+    "mates2": "ERR188288_2.fastq.gz",
+    "output": "salmon_gibbs/ERR188288",
+    "auxDir": "aux_info"
+}
