@@ -1,0 +1,9 @@
+{
+	"n_targets": 48009,
+	"n_bootstraps": 0,
+	"n_processed": 32507828,
+	"kallisto_version": "0.42.4",
+	"index_version": 10,
+	"start_time": "Sun Jan  3 08:42:32 2016",
+	"call": "kallisto quant --bias -i kallisto_0.42.4/index -o kallisto_0.42.4/ERR188021 fastq/ERR188021_1.fastq.gz fastq/ERR188021_2.fastq.gz"
+}

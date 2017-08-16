@@ -1,0 +1,22 @@
+{
+    "read_files": "( ERR188329_1.fastq.gz, ERR188329_2.fastq.gz )",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 0.9970939988074674,
+    "num_compatible_fragments": 33461308,
+    "num_assigned_fragments": 33558830,
+    "num_consistent_mappings": 143698741,
+    "num_inconsistent_mappings": 6256923,
+    "strand_mapping_bias": 0.4971758660014982,
+    "MSF": 0,
+    "OSF": 30273,
+    "ISF": 72255195,
+    "MSR": 0,
+    "OSR": 37406,
+    "ISR": 71443546,
+    "SF": 2923979,
+    "SR": 2891165,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

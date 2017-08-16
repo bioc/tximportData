@@ -1,0 +1,9 @@
+{
+	"n_targets": 178136,
+	"n_bootstraps": 5,
+	"n_processed": 32507828,
+	"kallisto_version": "0.43.0",
+	"index_version": 10,
+	"start_time": "Fri Mar  3 15:20:22 2017",
+	"call": "kallisto quant -t 6 -b 5 -i Homo_sapiens.GRCh38.cdna.all.fa_kallisto-0.43.0_index -o kallisto_boot/ERR188021 ERR188021_1.fastq.gz ERR188021_2.fastq.gz"
+}
