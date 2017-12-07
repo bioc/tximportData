@@ -1,5 +1,5 @@
 {
-    "read_files": "( /lustre/scr/m/i/milove/fastq/ERR188297_1.fastq, /lustre/scr/m/i/milove/fastq/ERR188297_2.fastq )",
+    "read_files": "( fastq/ERR188297_1.fastq, fastq/ERR188297_2.fastq )",
     "expected_format": "IU",
     "compatible_fragment_ratio": 0.9959315822706804,
     "num_compatible_fragments": 22043862,
