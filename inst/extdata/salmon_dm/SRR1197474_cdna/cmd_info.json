@@ -1,0 +1,12 @@
+{
+    "salmon_version": "0.10.2",
+    "libType": "A",
+    "gcBias": [],
+    "seqBias": [],
+    "posBias": [],
+    "index": "Drosophila_melanogaster.BDGP6.cdna.v92_salmon_0.10.2",
+    "output": "SRR1197474_cdna",
+    "mates1": "SRR1197474_1.fastq.gz",
+    "mates2": "SRR1197474_2.fastq.gz",
+    "auxDir": "aux_info"
+}
