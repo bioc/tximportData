@@ -54,6 +54,9 @@ list.files(file.path(dir,"sailfish","ERR188021"))
   the Gencode v27 CHR transcripts were used (`gencode.v27.transcripts.fa`).
 * For the `salmon_gibbs` and `kallisto_boot` directories, 
   the Ensembl v87 cDNA transcripts were used (`Homo_sapiens.GRCh38.cdna.all.fa`).
+* For the `salmon_dm` directory, the Ensembl Drosophila melanogaster
+  v92 transcripts were used (either just cDNA or combining cDNA with
+  non-coding transcripts).
 
 Illumina iGenomes: The human genome and annotations were downloaded from
 [Illumina iGenomes](https://support.illumina.com/sequencing/sequencing_software/igenome.html)
@@ -124,15 +127,23 @@ kallisto quant -i index -t 6 -b 5 -o kallisto_0.43.0/$f fastq/$f\_1.fastq.gz fas
 Salmon version 0.8.2 was run with the call:
 
 ```
-$salmon quant -p 6 --gcBias -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon/$f
+salmon quant -p 6 --gcBias -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon/$f
 ```
 
 For the files in the `salmon_gibbs` directory, Salmon version 0.8.1
-was run, quantifying against teh Ensembl transcripts (v87) in 
+was run, quantifying against the Ensembl transcripts (v87) in 
 `Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
 
 ```
-$salmon quant -p 6 --numGibbsSamples 5 -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon_gibbs/$f
+salmon quant -p 6 --numGibbsSamples 5 -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon_gibbs/$f
+```
+
+For the files in the `salmon_dm` directory (Drosophila melanogaster),
+Salmon version 0.10.2 was run (once with only cDNA, once combining
+cDNA with non-coding transcripts):
+
+```
+salmon quant -l A --gcBias --seqBias --posBias -i Drosophila_melanogaster.BDGP6.cdna.v92_salmon_0.10.2 -o SRR1197474 -1 SRR1197474_1.fastq.gz -2 SRR1197474_2.fastq.gz
 ```
 
 # Sailfish
