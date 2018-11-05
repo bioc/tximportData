@@ -1,0 +1,34 @@
+[2018-08-12 19:03:19.216] [alevinLog] [info] Processing barcodes files (if Present) 
+
+ 
+[2018-08-12 19:03:20.956] [alevinLog] [info] Done barcode density calculation.
+[2018-08-12 19:03:20.956] [alevinLog] [info] # Barcodes Used: [32m7162300[0m / [31m7197662[0m.
+[2018-08-12 19:03:25.467] [alevinLog] [info] Knee found left boundary at [32m 649 [0m
+[2018-08-12 19:03:25.575] [alevinLog] [info] Gauss Corrected Boundary at [32m 100 [0m
+[2018-08-12 19:03:25.575] [alevinLog] [info] Learned InvCov: 111.211 normfactor: 144.755
+[2018-08-12 19:03:25.575] [alevinLog] [info] Total [32m299[0m(has [32m199[0m low confidence) barcodes
+[2018-08-12 19:03:25.591] [alevinLog] [info] Done True Barcode Sampling
+[2018-08-12 19:03:25.628] [alevinLog] [info] Done populating Z matrix
+[2018-08-12 19:03:25.636] [alevinLog] [info] Done indexing Barcodes
+[2018-08-12 19:03:25.636] [alevinLog] [info] Total Unique barcodes found: 188613
+[2018-08-12 19:03:25.636] [alevinLog] [info] Used Barcodes except Whitelist: 3568
+[2018-08-12 19:03:25.700] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+
+[2018-08-12 19:03:25.700] [alevinLog] [info] parsing read library format
+[2018-08-12 19:03:44.494] [alevinLog] [info] Starting optimizer
+[2018-08-12 19:04:00.230] [alevinLog] [info] Total 2933348 UMI after deduplicating.
+[2018-08-12 19:04:00.310] [alevinLog] [info] Clearing EqMap; Might take some time.
+[2018-08-12 19:04:01.290] [alevinLog] [info] Starting Import of the gene count matrix.
+[2018-08-12 19:04:02.058] [alevinLog] [info] Done Importing gene count matrix for dimension 299x107450
+[2018-08-12 19:04:02.058] [alevinLog] [info] Starting dumping cell v gene counts in csv format
+[2018-08-12 19:04:10.894] [alevinLog] [info] Finished dumping csv counts
+[2018-08-12 19:04:10.894] [alevinLog] [info] Starting white listing
+[2018-08-12 19:04:10.899] [alevinLog] [info] Done importing order of barcodes "quants_mat_rows.txt" file.
+[2018-08-12 19:04:10.899] [alevinLog] [info] Total 299 barcodes found
+[2018-08-12 19:04:10.899] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
+[2018-08-12 19:04:10.899] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
+[2018-08-12 19:04:10.899] [alevinLog] [info] Starting to make feature Matrix
+[2018-08-12 19:04:10.916] [alevinLog] [info] Done making regular featues
+[2018-08-12 19:04:10.916] [alevinLog] [info] Done making feature Matrix
+[2018-08-12 19:04:10.919] [alevinLog] [info] Finished white listing
+[2018-08-12 19:04:10.988] [alevinLog] [info] Finished optimizer
