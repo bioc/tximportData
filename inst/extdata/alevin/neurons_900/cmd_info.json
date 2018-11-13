@@ -1,0 +1,14 @@
+{
+    "salmon_version": "0.11.4",
+    "libType": "ISR",
+    "mates1": "fastqs/neurons_900.fastq.1.gz",
+    "mates2": "fastqs/neurons_900.fastq.2.gz",
+    "chromium": [],
+    "index": "index/salmon/mm_transcriptome.salmon.index",
+    "output": "neurons_900",
+    "tgMap": "references/metadata/mm_t2g.tsv",
+    "threads": "20",
+    "debug": [],
+    "dumpBfh": [],
+    "auxDir": "aux_info"
+}
