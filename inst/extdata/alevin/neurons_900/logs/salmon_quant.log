@@ -1,17 +1,17 @@
-[2018-10-21 16:48:01.063] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
-[2018-10-21 16:48:01.063] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
-[2018-10-21 16:48:01.063] [jointLog] [info] Usage of --validateMappings implies use of range factorization. rangeFactorizationBins is being set to 4
-[2018-10-21 16:48:01.063] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 1. Setting consensusSlack to 1.
-[2018-10-21 16:48:01.063] [jointLog] [info] Using default value of 0.8 for minScoreFraction in Alevin
-[2018-10-21 16:48:39.556] [jointLog] [info] There is 1 library.
-[2018-10-21 16:48:39.712] [jointLog] [info] Loading Quasi index
-[2018-10-21 16:48:39.712] [jointLog] [info] Loading 32-bit quasi index
-[2018-10-21 16:48:45.210] [jointLog] [info] done
-[2018-10-21 16:48:45.210] [jointLog] [info] Index contained 132,288 targets
-[2018-10-21 16:50:47.053] [jointLog] [info] Computed 103,003 rich equivalence classes for further processing
-[2018-10-21 16:50:47.053] [jointLog] [info] Counted 30,266,663 total reads in the equivalence classes 
-[2018-10-21 16:50:47.053] [jointLog] [warning] Found 5197 reads with `N` in the UMI sequence and ignored the reads.
+[2019-01-24 12:13:05.457] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-01-24 12:13:05.457] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2019-01-24 12:13:05.457] [jointLog] [info] Usage of --validateMappings, without --hardFilter implies use of range factorization. rangeFactorizationBins is being set to 4
+[2019-01-24 12:13:05.457] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.2.
+[2019-01-24 12:13:05.457] [jointLog] [info] Using default value of 0.8 for minScoreFraction in Alevin
+[2019-01-24 12:13:45.053] [jointLog] [info] There is 1 library.
+[2019-01-24 12:13:45.194] [jointLog] [info] Loading Quasi index
+[2019-01-24 12:13:45.194] [jointLog] [info] Loading 32-bit quasi index
+[2019-01-24 12:13:50.518] [jointLog] [info] done
+[2019-01-24 12:13:50.518] [jointLog] [info] Index contained 132,288 targets
+[2019-01-24 12:15:48.678] [jointLog] [info] Computed 109,879 rich equivalence classes for further processing
+[2019-01-24 12:15:48.678] [jointLog] [info] Counted 30,379,046 total reads in the equivalence classes 
+[2019-01-24 12:15:48.678] [jointLog] [warning] Found 5197 reads with `N` in the UMI sequence and ignored the reads.
 Please report on github if this number is too large
-[2018-10-21 16:50:47.053] [jointLog] [info] Mapping rate = 57.3175%
+[2019-01-24 12:15:48.678] [jointLog] [info] Mapping rate = 57.5303%
 
-[2018-10-21 16:50:47.053] [jointLog] [info] finished quantifyLibrary()
+[2019-01-24 12:15:48.678] [jointLog] [info] finished quantifyLibrary()

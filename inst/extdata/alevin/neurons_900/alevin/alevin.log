@@ -1,36 +1,36 @@
-[2018-10-21 16:48:01.076] [alevinLog] [info] Processing barcodes files (if Present) 
+[2019-01-24 12:13:05.470] [alevinLog] [info] Processing barcodes files (if Present) 
 
  
-[2018-10-21 16:48:33.356] [alevinLog] [info] Done barcode density calculation.
-[2018-10-21 16:48:33.356] [alevinLog] [info] # Barcodes Used: [32m52653685[0m / [31m52805264[0m.
-[2018-10-21 16:48:38.061] [alevinLog] [info] Knee found left boundary at [32m 1996 [0m
-[2018-10-21 16:48:38.697] [alevinLog] [info] Gauss Corrected Boundary at [32m 1426 [0m
-[2018-10-21 16:48:38.697] [alevinLog] [info] Learned InvCov: 145.889 normfactor: 746.48
-[2018-10-21 16:48:38.698] [alevinLog] [warning] Total 12.4265% reads will be thrown away because of noisy Cellular barcodes.
-[2018-10-21 16:48:38.698] [alevinLog] [info] Total [32m2138[0m(has [32m712[0m low confidence) barcodes
-[2018-10-21 16:48:38.719] [alevinLog] [info] Done True Barcode Sampling
-[2018-10-21 16:48:38.833] [alevinLog] [info] Done populating Z matrix
-[2018-10-21 16:48:38.845] [alevinLog] [info] Done indexing Barcodes
-[2018-10-21 16:48:38.845] [alevinLog] [info] Total Unique barcodes found: 657180
-[2018-10-21 16:48:38.845] [alevinLog] [info] Used Barcodes except Whitelist: 24311
-[2018-10-21 16:48:39.556] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+[2019-01-24 12:13:38.243] [alevinLog] [info] Done barcode density calculation.
+[2019-01-24 12:13:38.243] [alevinLog] [info] # Barcodes Used: [32m52653685[0m / [31m52805264[0m.
+[2019-01-24 12:13:43.366] [alevinLog] [info] Knee found left boundary at [32m 1997 [0m
+[2019-01-24 12:13:44.283] [alevinLog] [info] Gauss Corrected Boundary at [32m 1426 [0m
+[2019-01-24 12:13:44.283] [alevinLog] [info] Learned InvCov: 145.889 normfactor: 746.48
+[2019-01-24 12:13:44.285] [alevinLog] [info] Total 12.4265% reads will be thrown away because of noisy Cellular barcodes.
+[2019-01-24 12:13:44.285] [alevinLog] [info] Total [32m2138[0m(has [32m712[0m low confidence) barcodes
+[2019-01-24 12:13:44.543] [alevinLog] [info] Done True Barcode Sampling
+[2019-01-24 12:13:44.707] [alevinLog] [info] Done populating Z matrix
+[2019-01-24 12:13:44.728] [alevinLog] [info] Done indexing Barcodes
+[2019-01-24 12:13:44.728] [alevinLog] [info] Total Unique barcodes found: 657180
+[2019-01-24 12:13:44.728] [alevinLog] [info] Used Barcodes except Whitelist: 24311
+[2019-01-24 12:13:44.869] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
 
-[2018-10-21 16:48:39.556] [alevinLog] [info] parsing read library format
-[2018-10-21 16:50:56.955] [alevinLog] [info] Starting optimizer
+[2019-01-24 12:13:45.053] [alevinLog] [info] parsing read library format
+[2019-01-24 12:15:50.000] [alevinLog] [info] Starting optimizer
 
 
-[2018-10-21 16:52:46.606] [alevinLog] [info] Total 12512482.00 UMI after deduplicating.
-[2018-10-21 16:52:46.632] [alevinLog] [info] Clearing EqMap; Might take some time.
-[2018-10-21 16:52:53.127] [alevinLog] [info] Starting Import of the gene count matrix of size 2138x52325.
-[2018-10-21 16:52:53.523] [alevinLog] [info] Done initializing the empty matrix.
-[2018-10-21 16:52:56.489] [alevinLog] [info] Done Importing gene count matrix for dimension 2138x52325
-[2018-10-21 16:52:57.190] [alevinLog] [info] Starting white listing
-[2018-10-21 16:52:57.210] [alevinLog] [info] Done importing order of barcodes "quants_mat_rows.txt" file.
-[2018-10-21 16:52:57.210] [alevinLog] [info] Total 2138 barcodes found
-[2018-10-21 16:52:57.210] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
-[2018-10-21 16:52:57.210] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
-[2018-10-21 16:52:57.210] [alevinLog] [info] Starting to make feature Matrix
-[2018-10-21 16:52:57.252] [alevinLog] [info] Done making regular featues
-[2018-10-21 16:52:57.252] [alevinLog] [info] Done making feature Matrix
-[2018-10-21 16:52:57.256] [alevinLog] [info] Finished white listing
-[2018-10-21 16:52:57.367] [alevinLog] [info] Finished optimizer
+[2019-01-24 12:34:16.001] [alevinLog] [info] Total 12501669.01 UMI after deduplicating.
+[2019-01-24 12:34:16.027] [alevinLog] [info] Clearing EqMap; Might take some time.
+[2019-01-24 12:34:22.216] [alevinLog] [info] Starting Import of the gene count matrix of size 2138x52325.
+[2019-01-24 12:34:22.598] [alevinLog] [info] Done initializing the empty matrix.
+[2019-01-24 12:34:24.797] [alevinLog] [info] Done Importing gene count matrix for dimension 2138x52325
+[2019-01-24 12:34:24.817] [alevinLog] [info] Starting white listing
+[2019-01-24 12:34:24.823] [alevinLog] [info] Done importing order of barcodes "quants_mat_rows.txt" file.
+[2019-01-24 12:34:24.823] [alevinLog] [info] Total 2138 barcodes found
+[2019-01-24 12:34:24.823] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
+[2019-01-24 12:34:24.823] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
+[2019-01-24 12:34:24.823] [alevinLog] [info] Starting to make feature Matrix
+[2019-01-24 12:34:24.879] [alevinLog] [info] Done making regular featues
+[2019-01-24 12:34:24.879] [alevinLog] [info] Done making feature Matrix
+[2019-01-24 12:34:24.892] [alevinLog] [info] Finished white listing
+[2019-01-24 12:34:24.988] [alevinLog] [info] Finished optimizer

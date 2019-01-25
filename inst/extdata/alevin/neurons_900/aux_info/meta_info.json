@@ -1,5 +1,5 @@
 {
-    "salmon_version": "0.11.4",
+    "salmon_version": "0.12.1",
     "samp_type": "none",
     "opt_type": "em",
     "quant_errors": [],
@@ -28,9 +28,9 @@
     "index_name_hash512": "",
     "num_bootstraps": 0,
     "num_processed": 52805264,
-    "num_mapped": 30266663,
-    "percent_mapped": 57.317510996630939,
+    "num_mapped": 30379046,
+    "percent_mapped": 57.53033636949528,
     "call": "quant",
-    "start_time": "Sun Oct 21 16:48:01 2018",
-    "end_time": "Sun Oct 21 16:52:57 2018"
+    "start_time": "Thu Jan 24 12:13:05 2019",
+    "end_time": "Thu Jan 24 12:34:25 2019"
 }
