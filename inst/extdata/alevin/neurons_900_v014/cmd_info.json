@@ -1,0 +1,14 @@
+{
+    "salmon_version": "0.14.0",
+    "libType": "ISR",
+    "mates1": "/mnt/scratch6/avi/data/cgat/fastqs/neurons_900.fastq.1.gz",
+    "mates2": "/mnt/scratch6/avi/data/cgat/fastqs/neurons_900.fastq.2.gz",
+    "output": "neurons_900",
+    "index": "/mnt/scratch5/avi/alevin/data/mouse/salmon.index",
+    "threads": "20",
+    "tgMap": "/mnt/scratch5/avi/alevin/data/mouse/gtf/txp2gene.tsv",
+    "chromium": [],
+    "whitelist": "/mnt/scratch6/avi/data/cgat/fastqs/whitelists/neurons_900_whitelist.txt",
+    "dumpMtx": [],
+    "auxDir": "aux_info"
+}
