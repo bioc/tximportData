@@ -1,19 +1,19 @@
-[2019-06-20 10:48:44.878] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
-[2019-06-20 10:48:44.878] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
-[2019-06-20 10:48:44.878] [jointLog] [info] Usage of --validateMappings, without --hardFilter implies use of range factorization. rangeFactorizationBins is being set to 4
-[2019-06-20 10:48:44.878] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.2.
-[2019-06-20 10:48:44.878] [jointLog] [info] Using default value of 0.87 for minScoreFraction in Alevin
+[2019-06-27 08:21:30.439] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-06-27 08:21:30.439] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2019-06-27 08:21:30.439] [jointLog] [info] Usage of --validateMappings, without --hardFilter implies use of range factorization. rangeFactorizationBins is being set to 4
+[2019-06-27 08:21:30.439] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.2.
+[2019-06-27 08:21:30.439] [jointLog] [info] Using default value of 0.87 for minScoreFraction in Alevin
 Using default value of 0.6 for consensusSlack in Alevin
-[2019-06-20 10:50:17.534] [jointLog] [info] There is 1 library.
-[2019-06-20 10:50:17.635] [jointLog] [info] Loading Quasi index
-[2019-06-20 10:50:17.635] [jointLog] [info] Loading 32-bit quasi index
-[2019-06-20 10:50:22.614] [jointLog] [info] done
-[2019-06-20 10:50:22.614] [jointLog] [info] Index contained 124,106 targets
-[2019-06-20 10:52:19.702] [jointLog] [info] Computed 95,144 rich equivalence classes for further processing
-[2019-06-20 10:52:19.702] [jointLog] [info] Counted 26,261,594 total reads in the equivalence classes 
-[2019-06-20 10:52:19.702] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
-[2019-06-20 10:52:19.702] [jointLog] [warning] Found 4565 reads with `N` in the UMI sequence and ignored the reads.
+[2019-06-27 08:22:45.007] [jointLog] [info] There is 1 library.
+[2019-06-27 08:22:45.070] [jointLog] [info] Loading Quasi index
+[2019-06-27 08:22:45.071] [jointLog] [info] Loading 32-bit quasi index
+[2019-06-27 08:22:52.527] [jointLog] [info] done
+[2019-06-27 08:22:52.527] [jointLog] [info] Index contained 137,271 targets
+[2019-06-27 08:26:16.008] [jointLog] [info] Computed 104,657 rich equivalence classes for further processing
+[2019-06-27 08:26:16.008] [jointLog] [info] Counted 26,442,554 total reads in the equivalence classes 
+[2019-06-27 08:26:16.008] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2019-06-27 08:26:16.008] [jointLog] [warning] Found 4565 reads with `N` in the UMI sequence and ignored the reads.
 Please report on github if this number is too large
-[2019-06-20 10:52:19.702] [jointLog] [info] Mapping rate = 49.7329%
+[2019-06-27 08:26:16.008] [jointLog] [info] Mapping rate = 50.0756%
 
-[2019-06-20 10:52:19.702] [jointLog] [info] finished quantifyLibrary()
+[2019-06-27 08:26:16.008] [jointLog] [info] finished quantifyLibrary()

@@ -4,12 +4,13 @@
     "noisy_cb_reads": 12393583,
     "noisy_umi_reads": 4565,
     "used_reads": 40250972,
-    "mapping_rate": 49.73290920390058,
-    "reads_in_eqclasses": 26261594,
+    "mapping_rate": 50.07560231116352,
+    "reads_in_eqclasses": 26442554,
     "total_cbs": 657180,
     "used_cbs": 23028,
     "final_num_cbs": 931,
-    "deduplicated_umis": 10783418,
-    "mean_umis_per_cell": 11582,
-    "mean_genes_per_cell": 3253
+    "num_bootstraps": 20,
+    "deduplicated_umis": 10855104,
+    "mean_umis_per_cell": 11659,
+    "mean_genes_per_cell": 3304
 }

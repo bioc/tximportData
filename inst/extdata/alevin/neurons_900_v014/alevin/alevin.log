@@ -1,30 +1,30 @@
-[2019-06-20 10:48:44.878] [alevinLog] [info] Loading Header
-[2019-06-20 10:48:44.878] [alevinLog] [info] Loading Transcript Info 
-[2019-06-20 10:48:45.083] [alevinLog] [info] Found all transcripts to gene mappings
-[2019-06-20 10:48:45.095] [alevinLog] [info] Processing barcodes files (if Present) 
+[2019-06-27 08:21:30.444] [alevinLog] [info] Loading Header
+[2019-06-27 08:21:30.445] [alevinLog] [info] Loading Transcript Info 
+[2019-06-27 08:21:30.610] [alevinLog] [info] Found all transcripts to gene mappings
+[2019-06-27 08:21:30.625] [alevinLog] [info] Processing barcodes files (if Present) 
 
  
-[2019-06-20 10:50:17.328] [alevinLog] [info] Done barcode density calculation.
-[2019-06-20 10:50:17.328] [alevinLog] [info] # Barcodes Used: [32m52653685[0m / [31m52805264[0m.
-[2019-06-20 10:50:17.328] [alevinLog] [info] Done importing white-list Barcodes
-[2019-06-20 10:50:17.328] [alevinLog] [info] Total 931 white-listed Barcodes
-[2019-06-20 10:50:17.439] [alevinLog] [info] Total 23.4704% reads will be thrown away because of noisy Cellular barcodes.
-[2019-06-20 10:50:17.491] [alevinLog] [info] Done populating Z matrix
-[2019-06-20 10:50:17.502] [alevinLog] [info] Total 22117 CB got sequence corrected
-[2019-06-20 10:50:17.506] [alevinLog] [info] Done indexing Barcodes
-[2019-06-20 10:50:17.506] [alevinLog] [info] Total Unique barcodes found: 657180
-[2019-06-20 10:50:17.506] [alevinLog] [info] Used Barcodes except Whitelist: 22097
-[2019-06-20 10:50:17.534] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+[2019-06-27 08:22:44.774] [alevinLog] [info] Done barcode density calculation.
+[2019-06-27 08:22:44.774] [alevinLog] [info] # Barcodes Used: [32m52653685[0m / [31m52805264[0m.
+[2019-06-27 08:22:44.776] [alevinLog] [info] Done importing white-list Barcodes
+[2019-06-27 08:22:44.776] [alevinLog] [info] Total 931 white-listed Barcodes
+[2019-06-27 08:22:44.860] [alevinLog] [info] Total 23.4704% reads will be thrown away because of noisy Cellular barcodes.
+[2019-06-27 08:22:44.909] [alevinLog] [info] Done populating Z matrix
+[2019-06-27 08:22:44.915] [alevinLog] [info] Total 22117 CB got sequence corrected
+[2019-06-27 08:22:44.916] [alevinLog] [info] Done indexing Barcodes
+[2019-06-27 08:22:44.916] [alevinLog] [info] Total Unique barcodes found: 657180
+[2019-06-27 08:22:44.916] [alevinLog] [info] Used Barcodes except Whitelist: 22097
+[2019-06-27 08:22:45.006] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
 
-[2019-06-20 10:50:17.534] [alevinLog] [info] parsing read library format
-[2019-06-20 10:52:20.350] [alevinLog] [info] Starting optimizer
+[2019-06-27 08:22:45.006] [alevinLog] [info] parsing read library format
+[2019-06-27 08:26:16.612] [alevinLog] [info] Starting optimizer
 
 
-[2019-06-20 10:52:21.103] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
-[2019-06-20 10:52:21.103] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
-[2019-06-20 10:54:15.311] [alevinLog] [info] Total 10783418.00 UMI after deduplicating.
-[2019-06-20 10:54:15.311] [alevinLog] [info] Total 4763664 BiDirected Edges.
-[2019-06-20 10:54:15.311] [alevinLog] [info] Total 238754 UniDirected Edges.
-[2019-06-20 10:54:15.366] [alevinLog] [info] Starting dumping cell v gene counts in mtx format
-[2019-06-20 10:54:18.633] [alevinLog] [info] Finished dumping counts into mtx
-[2019-06-20 10:54:18.642] [alevinLog] [info] Finished optimizer
+[2019-06-27 08:26:17.352] [alevinLog] [warning] mrna file not provided; using is 1 less feature for whitelisting
+[2019-06-27 08:26:17.352] [alevinLog] [warning] rrna file not provided; using is 1 less feature for whitelisting
+[2019-06-27 08:28:27.517] [alevinLog] [info] Total 10855104.00 UMI after deduplicating.
+[2019-06-27 08:28:27.517] [alevinLog] [info] Total 5057518 BiDirected Edges.
+[2019-06-27 08:28:27.517] [alevinLog] [info] Total 238821 UniDirected Edges.
+[2019-06-27 08:28:27.561] [alevinLog] [info] Starting dumping cell v gene counts in mtx format
+[2019-06-27 08:28:31.050] [alevinLog] [info] Finished dumping counts into mtx
+[2019-06-27 08:28:31.059] [alevinLog] [info] Finished optimizer
