@@ -1,0 +1,22 @@
+{
+    "salmon_version": "0.14.1",
+    "libType": "ISR",
+    "threads": "12",
+    "index": "/proj/milovelab/anno/gencode.vM20_salmon_0.14.1",
+    "mates1": [
+        "neurons_900_S1_L001_R1_001.fastq.gz",
+        "neurons_900_S1_L002_R1_001.fastq.gz"
+    ],
+    "mates2": [
+        "neurons_900_S1_L001_R2_001.fastq.gz",
+        "neurons_900_S1_L002_R2_001.fastq.gz"
+    ],
+    "output": "neurons_900_v014_boot_nowhite",
+    "chromium": [],
+    "tgMap": "tx2gene.tsv",
+    "numCellBootstraps": "20",
+    "dumpFeatures": [],
+    "whitelist": "neurons_900_whitelist.txt",
+    "dumpMtx": [],
+    "auxDir": "aux_info"
+}
