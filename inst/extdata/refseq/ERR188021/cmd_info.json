@@ -1,10 +1,11 @@
 {
     "salmon_version": "0.99.0",
-    "index": "GCF_000001405.39_GRCh38.p13_salmon-0.99.0",
     "libType": "A",
     "gcBias": [],
-    "output": "ERR188021",
+    "index": "GCF_000001405.38_GRCh38.p12_salmon_0.99.0_beta2",
+    "threads": "4",
     "mates1": "ERR188021_1.fastq.gz",
     "mates2": "ERR188021_2.fastq.gz",
+    "output": "ERR188021",
     "auxDir": "aux_info"
 }
