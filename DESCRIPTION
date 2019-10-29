@@ -1,6 +1,6 @@
 Package: tximportData
 Title: tximportData
-Version: 1.14.0
+Version: 1.15.0
 Author: Michael Love
 Maintainer: Michael Love <michaelisaiahlove@gmail.com>
 Description: This package provides the output of running various
