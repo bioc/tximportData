@@ -1,0 +1,27 @@
+[2022-03-17 17:57:37.992] [alevinLog] [info] Found 140750 transcripts(+0 decoys, +39 short and +0 duplicate names in the index)
+[2022-03-17 17:57:38.141] [alevinLog] [info] Filled with 140789 txp to gene entries 
+[2022-03-17 17:57:38.171] [alevinLog] [info] Found all transcripts to gene mappings
+[2022-03-17 17:57:38.207] [alevinLog] [info] Processing barcodes files (if Present) 
+
+ 
+[2022-03-17 18:08:17.710] [alevinLog] [info] Done barcode density calculation.
+[2022-03-17 18:08:17.710] [alevinLog] [info] # Barcodes Used: [32m339604385[0m / [31m339604385[0m.
+[2022-03-17 18:08:17.719] [alevinLog] [info] Done importing white-list Barcodes
+[2022-03-17 18:08:17.719] [alevinLog] [info] Total 50 white-listed Barcodes
+[2022-03-17 18:08:17.719] [alevinLog] [info] Sorting and dumping raw barcodes
+[2022-03-17 18:08:19.347] [alevinLog] [warning] Total 92.7062% reads will be thrown away because of noisy Cellular barcodes.
+[2022-03-17 18:08:19.355] [alevinLog] [info] Done populating Z matrix
+[2022-03-17 18:08:19.356] [alevinLog] [info] Total 3636 CB got sequence corrected
+[2022-03-17 18:08:19.356] [alevinLog] [info] Done indexing Barcodes
+[2022-03-17 18:08:19.356] [alevinLog] [info] Total Unique barcodes found: 1524323
+[2022-03-17 18:08:19.356] [alevinLog] [info] Used Barcodes except Whitelist: 3552
+[2022-03-17 18:08:20.060] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+
+[2022-03-17 18:08:20.061] [alevinLog] [info] parsing read library format
+[2022-03-17 19:08:10.198] [alevinLog] [info] Starting optimizer
+
+
+[2022-03-17 19:09:12.101] [alevinLog] [info] Total 1963031.00 UMI after deduplicating.
+[2022-03-17 19:09:12.101] [alevinLog] [info] Total 4227593 BiDirected Edges.
+[2022-03-17 19:09:12.101] [alevinLog] [info] Total 176371 UniDirected Edges.
+[2022-03-17 19:09:12.114] [alevinLog] [info] Finished optimizer

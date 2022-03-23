@@ -1,0 +1,14 @@
+{
+    "salmon_version": "1.6.0",
+    "whitelist": "./whitelist_unst_50.txt",
+    "dumpFeatures": [],
+    "dumpBfh": [],
+    "libType": "ISR",
+    "mates1": "./mouse_unst/24754_6_S1_L001_R1_001.fastq.gz",
+    "mates2": "./mouse_unst/24754_6_S1_L001_R2_001.fastq.gz",
+    "chromium": [],
+    "index": "salmonIndex_Mm10",
+    "output": "alevin_unst_50",
+    "tgMap": "txp2gene.tsv",
+    "auxDir": "aux_info"
+}

@@ -1,12 +1,13 @@
 Package: tximportData
 Title: tximportData
-Version: 1.23.0
+Version: 1.23.1
 Author: Michael Love
 Maintainer: Michael Love <michaelisaiahlove@gmail.com>
 Description: This package provides the output of running various
         transcript abundance quantifiers on a set of 6 RNA-seq samples
         from the GEUVADIS project. The quantifiers were Cufflinks,
-        RSEM, kallisto, Salmon and Sailfish. For details on version
+        RSEM, kallisto, Salmon and Sailfish. alevin example output
+	is also included. Forr details on version
         numbers, sample information, and details on calls, see the
         package vignette.
 biocViews: ExperimentData, SequencingData, RNASeqData

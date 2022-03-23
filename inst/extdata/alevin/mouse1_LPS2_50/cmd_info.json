@@ -1,0 +1,14 @@
+{
+    "salmon_version": "1.6.0",
+    "whitelist": "./whitelist_lps2_50.txt",
+    "dumpFeatures": [],
+    "dumpBfh": [],
+    "libType": "ISR",
+    "mates1": "./mouse_LPS2/24754_7_S1_L001_R1_001.fastq.gz",
+    "mates2": "./mouse_LPS2/24754_7_S1_L001_R2_001.fastq.gz",
+    "chromium": [],
+    "index": "salmonIndex_Mm10",
+    "output": "alevin_LPS2_50",
+    "tgMap": "txp2gene.tsv",
+    "auxDir": "aux_info"
+}
