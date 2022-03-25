@@ -1,0 +1,16 @@
+{
+    "total_reads": 344427924,
+    "reads_with_N": 0,
+    "noisy_cb_reads": 313929018,
+    "noisy_umi_reads": 4998,
+    "used_reads": 30493908,
+    "mapping_rate": 5.5515641060508209,
+    "reads_in_eqclasses": 19121137,
+    "total_cbs": 1665873,
+    "used_cbs": 3757,
+    "final_num_cbs": 50,
+    "num_bootstraps": 20,
+    "deduplicated_umis": 1766607,
+    "mean_umis_per_cell": 35332,
+    "mean_genes_per_cell": 5022
+}
