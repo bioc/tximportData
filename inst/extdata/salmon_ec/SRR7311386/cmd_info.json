@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.1.0",
+    "index": "Mus_musculus_GRCm38_salmonIndex",
+    "gcBias": [],
+    "dumpEq": [],
+    "libType": "A",
+    "mates1": "SRR7311386_1.fastq",
+    "mates2": "SRR7311386_2.fastq",
+    "output": "SRR7311386",
+    "auxDir": "aux_info"
+}
