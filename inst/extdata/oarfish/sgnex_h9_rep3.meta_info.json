@@ -1,0 +1,72 @@
+{
+  "prob_model": "no_coverage",
+  "alignment_source": "from_raw_reads",
+  "alignment_time": {
+    "comment": "Time to parse (in alignment mode) or generate (in raw read mode) alignments, as well as apply filters, and compute conditional probabilities.",
+    "human_time": "1h 25s 43ms 376us 757ns",
+    "seconds": 3625.043376757
+  },
+  "bin_width": 100,
+  "filter_options": {
+    "five_prime_clip": 4294967295,
+    "three_prime_clip": 9223372036854775807,
+    "score_threshold": 0.0,
+    "min_aligned_fraction": 0.0,
+    "min_aligned_len": 1,
+    "which_strand": "Unknown",
+    "model_coverage": false,
+    "logistic_growth_rate": 2.0,
+    "write_assignment_probs": false,
+    "write_assignment_probs_type": null
+  },
+  "discard_table": {
+    "discard_5p": 0,
+    "discard_3p": 0,
+    "discard_score": 4535,
+    "discard_aln_frac": 0,
+    "discard_aln_len": 0,
+    "discard_ori": 0,
+    "discard_supp": 941648,
+    "valid_best_aln": 23444925
+  },
+  "alignments": null,
+  "output": "quants/sgnex_h9_rep3",
+  "verbose": false,
+  "single_cell": false,
+  "quiet": false,
+  "em_max_iter": 1000,
+  "em_convergence_thresh": 0.001,
+  "threads": 32,
+  "filter_group": "NoFilters",
+  "write_assignment_probs": null,
+  "short_quant": null,
+  "num_bootstraps": 0,
+  "digest": {
+    "annotated_transcripts_digest": {
+      "seqcol_digest": {
+        "level": 1,
+        "names": "JUIP9tOUb93N-sZGmHdjg_2bGp4IrqZ4",
+        "lengths": "nU-v4C6PuMl5X4QPVgdpxTR87Numpk1W",
+        "sequences": "QVrdH5eXUJ5btwlm7ac4VehByWq0ZxB8",
+        "sorted_name_length_pairs": "ijmYdEDi2HiLQSVHJS4WC1FGSU7cnp2D"
+      },
+      "sha256_digests": {
+        "sha256_names": "6ceb53cd280a937ae0d5f0cbad2d660ce7b7685af5be770aa63c119d091f07fb",
+        "sha256_seqs": "6fc626c828b7a342ab0c6ff753055761989bf0e2306370e8766fedf45ad3adb3"
+      }
+    },
+    "novel_transcripts_digest": {
+      "seqcol_digest": {
+        "level": 1,
+        "names": "sIhwv3r6861D8to3h3OeYOstkDzzW-Kd",
+        "lengths": "Aug1criqnPXHKHjHzjmXh_yP54urBldh",
+        "sequences": "Gm-2wOfdiDlOi9doON1U_Upitt6slra_",
+        "sorted_name_length_pairs": "827OzjuZafxY32dfoUmGGibpHpDMx7QU"
+      },
+      "sha256_digests": {
+        "sha256_names": "c93637e240ce5945a9dfdb86f75bd925202aac5008c238d4cdcdca792f7afa96",
+        "sha256_seqs": "43158f2c8e88e3acd77c22aee557625a6f1b6a5038cfc7deb5e64903892d8070"
+      }
+    }
+  }
+}

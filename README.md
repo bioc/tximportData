@@ -1,7 +1,7 @@
 # tximportData
 
 This packages provides output files from common transcript estimation
-software (Salmon, Kallisto, RSEM, Cufflinks) for demonstration of
+software (Salmon, Kallisto, RSEM, Cufflinks, etc.) for demonstration of
 import using [tximport](http://github.com/mikelove/tximport).
 The files are a subset of 6 samples from the
 GEUVADIS project. The citation for the GEUVADIS project is:
@@ -15,3 +15,4 @@ http://www.nature.com/nature/journal/v501/n7468/full/nature12531.html?WT.ec_id=N
 list.files(system.file("extdata",package="tximportData"))
 ```
 
+See vignette for more details on all files included in this package.
