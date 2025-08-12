@@ -166,6 +166,29 @@ shapes innate immunity" (2018)
 Salmon/alevin version 1.6.0 was run, and using the tx2gene data that
 is included in the package under `tx2gene_alevin.tsv`.
 
+# oarfish
+
+Three samples were processed with `oarfish` v0.9.0, downloaded from the 
+[fastq download page](http://sg-nex-data.s3-website-ap-southeast-1.amazonaws.com/#data/sequencing_data_ont/fastq/) of the [SG-NEx Project](https://registry.opendata.aws/sgnex/). See also this [GitHub page](https://github.com/GoekeLab/sg-nex-data).
+
+The samples were `SGNex_H9_cDNA` replicates 2-4, run 4.
+
+These three samples were quantified with `oarfish` against human GENCODE v48 supplemented with 8,487 "novel" sequences of length 1,000 bp across chr1-22 (roughly 500 per chromosome).
+
+Code for the quantification steps are posted to a 
+[GitHub repo](https://github.com/mikelove/oarfish4tximportData).
+
+Briefly the following lines were used:
+
+```
+oarfish --only-index --annotated gencode.v48.transcripts.fa.gz --novel novel.fa.gz --seq-tech ont-cdna --threads 32 --index-out gencode_plus_novel
+oarfish --reads reads/SGNex_H9_cDNA_replicateXYZ_run4.fastq.gz --index gencode_plus_novel --output quants/sgnex_h9_rep2 --seq-tech ont-cdna --filter-group no-filters --threads 32
+```
+
+Citation for the SG-NEx Project:
+
+> Chen, Y., Davidson, N.M., Wan, Y.K. et al. A systematic benchmark of Nanopore long-read RNA sequencing for transcript-level analysis in human cell lines. Nat Methods 22, 801–812 (2025). <https://doi.org/10.1038/s41592-025-02623-4>
+
 # Sailfish
 
 Sailfish version 0.9.0 was run with the call:
