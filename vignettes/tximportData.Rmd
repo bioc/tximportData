@@ -174,7 +174,7 @@ Three samples were processed with `oarfish` v0.9.0, downloaded from the
 
 The samples were `SGNex_H9_cDNA` replicates 2-4, run 4.
 
-These three samples were quantified with `oarfish` against human GENCODE v48 supplemented with 8,487 "novel" sequences of length 1,000 bp across chr1-22 (roughly 500 per chromosome).
+These three samples were quantified with `oarfish` against human GENCODE v48 supplemented with "novel" sequences of length 1,000 bp across chr1-22 (500 per chromosome = 11,000 new transcripts named `novel1`, `novel2`, ...).
 
 Code for the quantification steps are posted to a 
 [GitHub repo](https://github.com/mikelove/oarfish4tximportData).
