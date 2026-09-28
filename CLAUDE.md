@@ -18,8 +18,8 @@ branch and tag at https://github.com/mikelove/tximportData and is released on
 Zenodo: https://doi.org/10.5281/zenodo.22982575. All work happens on
 `devel`; do not modify `with-inf-reps`.
 
-Remotes: `origin` is Bioconductor git; GitHub is pushed by URL
-(`git@github.com:mikelove/tximportData.git`), no named remote.
+Remotes: `origin` is GitHub (`git@github.com:mikelove/tximportData.git`),
+`upstream` is Bioconductor git.
 
 ### What was removed in v1.41.1
 
