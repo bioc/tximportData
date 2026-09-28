@@ -3,8 +3,12 @@
 This packages provides output files from common transcript estimation
 software (Salmon, Kallisto, RSEM, Cufflinks, etc.) for demonstration of
 import using [tximport](http://github.com/mikelove/tximport).
-The files are a subset of 6 samples from the
-GEUVADIS project. The citation for the GEUVADIS project is:
+The files are a subset of 2 samples from the
+GEUVADIS project (6 for Cufflinks). Inferential replicate data and the
+full set of 6 samples from earlier versions are archived on Zenodo:
+https://doi.org/10.5281/zenodo.22982575
+
+The citation for the GEUVADIS project is:
 
 Lappalainen et al, "Transcriptome and genome sequencing uncovers functional variation in
 humans", *Nature*, 2013.

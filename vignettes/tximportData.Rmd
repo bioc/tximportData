@@ -7,9 +7,10 @@
 # Sample output files for tximport
 
 This data package provides a set of output files from running a number
-of various transcript abundance quantifiers on 6 samples from the
-[GEUVADIS Project](http://www.geuvadis.org/web/geuvadis). The
-files are contained in the `inst/extdata` directory.
+of various transcript abundance quantifiers on 2 samples from the
+[GEUVADIS Project](http://www.geuvadis.org/web/geuvadis) (6 samples
+for Cufflinks), as well as a number of other datasets described
+below. The files are contained in the `inst/extdata` directory.
 
 A citation for the GEUVADIS Project is:
 
@@ -19,6 +20,17 @@ A citation for the GEUVADIS Project is:
 
 The purpose of this vignette is to detail which versions of software
 were run, and exactly what calls were made.
+
+# Inferential replicate data moved to Zenodo
+
+Previous versions of this package included Salmon Gibbs samples
+(`salmon_gibbs`) and kallisto bootstrap samples (`kallisto_boot`), as
+well as all 6 GEUVADIS samples for each quantifier, the GENCODE v48
+GTF file, and other larger files. To reduce the size of the package,
+these were removed in version 1.41.1. The full set of files is
+archived on Zenodo:
+
+<https://doi.org/10.5281/zenodo.22982575>
 
 # Sample information and quantification files
 
@@ -52,10 +64,8 @@ list.files(file.path(dir,"alevin"))
 # Genome and gene annotation file
 
 * For Cufflinks and Sailfish, the Illumina iGenomes was used as the index, see details below. 
-* For RSEM, Salmon and kallisto (without inference replicates), 
+* For RSEM, Salmon and kallisto, 
   the Gencode v27 CHR transcripts were used (`gencode.v27.transcripts.fa`).
-* For the `salmon_gibbs` and `kallisto_boot` directories, 
-  the Ensembl v87 cDNA transcripts were used (`Homo_sapiens.GRCh38.cdna.all.fa`).
 * For the `salmon_dm` directory, the Ensembl Drosophila melanogaster
   v92 transcripts were used (either just cDNA or combining cDNA with
   non-coding transcripts).
@@ -88,7 +98,7 @@ Cufflinks version 2.2.1 was run with the call:
 cuffquant -p 40 -b $GENO -o cufflinks/$f genes.gtf tophat_out/$f/accepted_hits.bam;
 ```
 
-Cuffnorm was run with the call:
+Cuffnorm was run on all 6 GEUVADIS samples with the call:
 
 ```
 cuffnorm genes.gtf -o cufflinks/ \
@@ -116,13 +126,8 @@ kallisto version 0.43.1 was run with the call:
 kallisto quant --bias -i index -t 6 -o kallisto/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
 ```
 
-For the files in `kallisto_boot` directory, kallisto version 0.43.0
-was run, quantifying against the Ensembl transcripts (v87) in
-`Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
-
-```
-kallisto quant -i index -t 6 -b 5 -o kallisto_0.43.0/$f fastq/$f\_1.fastq.gz fastq/$f\_2.fastq.gz
-```
+Only the `abundance.tsv.gz` files are included (these runs have no
+bootstrap samples).
 
 # Salmon
 
@@ -130,14 +135,6 @@ Salmon version 0.8.2 was run with the call:
 
 ```
 salmon quant -p 6 --gcBias -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon/$f
-```
-
-For the files in the `salmon_gibbs` directory, Salmon version 0.8.1
-was run, quantifying against the Ensembl transcripts (v87) in 
-`Homo_sapiens.GRCh38.cdna.all.fa`, using the call:
-
-```
-salmon quant -p 6 --numGibbsSamples 5 -i index -l IU -1 fastq/$f\_1.fastq.gz -2 fastq/$f\_2.fastq.gz -o salmon_gibbs/$f
 ```
 
 For the files in the `salmon_dm` directory (Drosophila melanogaster),
